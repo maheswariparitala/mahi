@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Suite"  >
+
+
+
+    <test name="multipleTests" >
+
+        <classes>
+
+
+            <class name="TestSuite.MarketplaceHomePage">
+                    
+            <methods>
+
+                <include name="homepage"></include>
+                <exclude name="test_signupPage"></exclude>
+                <exclude name="test_ForgotPassword"/>
+                <include name="test_SignInPage" />
+                <include name="test_SwitchToApplicationsPage"/>
+                <include name="test_ApplicationPage"/>
+                <exclude name="test_sandboxgenerateKeysPage"/>
+                <exclude name="test_ApplicationListLink"/>
+                <exclude name="test_ViewapplicationPage"/>
+                <exclude name="test_EditApplicationPage"/>
+                <exclude name="test_DeleteapplicationPage"/>
+                <exclude name="test_APIPage"/>
+                <exclude name="test_subscriptionofAPI"/>
+                <exclude name="test_Signout"/>
+
+
+            </methods>
+
+            </class>
+
+
+
+        </classes>
+    </test>
+</suite>

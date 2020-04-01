@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BaseClass.TestBase" duration-ms="2" started-at="2019-09-13T09:23:04Z" finished-at="2019-09-13T09:23:04Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2" started-at="2019-09-13T09:23:04Z" finished-at="2019-09-13T09:23:04Z">
+      <class name="BaseClass.TestBase">
+        <test-method status="PASS" signature="Extentreportssetup()[pri:0, instance:BaseClass.TestBase@62043840]" name="Extentreportssetup" is-config="true" duration-ms="2804" started-at="2019-09-13T11:23:01Z" finished-at="2019-09-13T11:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreportssetup -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:BaseClass.TestBase@62043840]" name="closebrowser" is-config="true" duration-ms="116" started-at="2019-09-13T11:23:07Z" finished-at="2019-09-13T11:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- BaseClass.TestBase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- BaseClass.TestBase -->
+</testng-results>
